@@ -5,7 +5,7 @@ import Index from "./pages/Home/Index";
 
 const router = createBrowserRouter([
   {
-    path: "/frontMentor_todo_app",
+    path: "/frontend_mentor_todo",
     element: <Home />,
 
     children: [{ index: true, element: <Index /> }],
