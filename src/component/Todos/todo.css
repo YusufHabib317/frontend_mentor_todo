@@ -1,0 +1,6 @@
+.input-todo {
+  outline: none;
+}
+.input-todo:focus {
+  outline: none;
+}

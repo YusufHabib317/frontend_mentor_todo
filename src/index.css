@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Ubuntu";
+    src: url("../src/assets/multiStepForm/fonts/Ubuntu-Regular.ttf");
+  }
+  :root {
+    --color-bg-app: #fafafa;
+    --color-bg-todos: #ffffff;
+    --color-text-todos: #858492;
+    --color-text-active: #254a94;
+    --color-text-active: #0f4ac1;
+    --color-text-unactive: #dddce4;
+    --color-text-hover: #646579;
+  }
+  .theme-dark {
+    --color-bg-app: #171723;
+    --color-bg-todos: #24263b;
+    --color-text-todos: #898ba3;
+    --color-text-avtive: #254a94;
+    --color-text-active: #0f4ac1;
+    --color-text-unactive: #535470;
+    --color-text-hover: #d3d6e7;
+  }
+}
